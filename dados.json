@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "sistema": "Assistente de atendimento",
+        "tipo": "empresa",
+        "finalidade": "Responder dúvidas de clientes",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 2,
+        "sistema": "Correção de atividades",
+        "tipo": "escola",
+        "finalidade": "Auxiliar na correção de atividades escolares",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 3,
+        "sistema": "Análise de documentos",
+        "tipo": "empresa",
+        "finalidade": "Analisar e organizar documentos",
+        "tecnologia": "Machine Learning",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 4,
+        "sistema": "Recomendação de conteúdos",
+        "tipo": "pessoa",
+        "finalidade": "Recomendar conteúdos de acordo com os interesses",
+        "tecnologia": "Machine Learning",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": false
+    },
+    {
+        "id": 5,
+        "sistema": "Análise de candidatos",
+        "tipo": "empresa",
+        "finalidade": "Auxiliar na seleção de candidatos para vagas",
+        "tecnologia": "Inteligência Artificial",
+        "nivel_risco": "Alto",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 6,
+        "sistema": "Chatbot escolar atualizado",
+        "tipo": "escola",
+        "finalidade": "Auxiliar alunos e professores",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 8,
+        "sistema": "Chatbot escolar",
+        "tipo": "escola",
+        "finalidade": "Auxiliar alunos com dúvidas",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 9,
+        "sistema": "assistente de estudos",
+        "tipo": "pessoa",
+        "finalidade": "auxiliar nos estudos",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    }
+]

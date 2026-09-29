@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Campo - Uso de IA</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de Uso de Inteligência Artificial</h1>
+
+    <form action="http://localhost:3000/usos" method="post">
+
+        <label for="sistema">Sistema:</label>
+        <input type="text" id="sistema" name="sistema" required>
+
+        <br><br>
+
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="">Selecione</option>
+            <option value="empresa">Empresa</option>
+            <option value="escola">Escola</option>
+            <option value="pessoa">Pessoa</option>
+        </select>
+
+        <br><br>
+
+        <label for="finalidade">Finalidade:</label>
+        <input type="text" id="finalidade" name="finalidade" required>
+
+        <br><br>
+
+        <label for="tecnologia">Tecnologia:</label>
+        <input type="text" id="tecnologia" name="tecnologia" required>
+
+        <br><br>
+
+        <label for="nivel_risco">Nível de risco:</label>
+        <select id="nivel_risco" name="nivel_risco" required>
+            <option value="">Selecione</option>
+            <option value="Baixo">Baixo</option>
+            <option value="Médio">Médio</option>
+            <option value="Alto">Alto</option>
+        </select>
+
+        <br><br>
+
+        <label for="possui_revisao_humana">
+            Possui revisão humana:
+        </label>
+
+        <select id="possui_revisao_humana" name="possui_revisao_humana" required>
+            <option value="true">Sim</option>
+            <option value="false">Não</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+</body>
+
+</html>
